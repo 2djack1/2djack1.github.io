@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to my website!</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+
+        <div class="intro">
+            <img src="images/profile.png" width="150px" height="150px">
+            <h1>Jimin Seo</h1>
+            <h3>AI and Data Science Student at Sejong University</h3>
+            <p>{{ I want to become a data scientist }}</p>
+        </div>
+
+        <div class="about-grid">
+            <div class="i-am">
+                <h3>I am</h3>
+                <ul class="about-list">
+                    <li>A university student</li>
+                    <li>An AI Data Science major</li>
+                    <li>A future data scientist</li>
+                </ul>
+            </div>
+
+            <div class="i-like">
+                <h3>I like to</h3>
+                <ul class="about-list">
+                    <li>Play with friends</li>
+                    <li>Listen to music</li>
+                    <li>Travel</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="projects-heading">
+            <h3>My Projects</h3>
+            <div class="projects-grid">
+                <img class="project-image" src="images/project-1.png" width="300px" height="300px">
+                <img class="project-image" src="images/project-2.png" width="300px" height="300px">
+                <img class="project-image" src="images/project-3.png" width="300px" height="300px">
+                <img class="project-image" src="images/project-4.png" width="300px" height="300px">
+            </div>
+        </div>
+
+        <div class="links-and-contact">
+            <div class="links">
+                <h3>Links</h3>
+                <ul class="links-list">
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://github.com/">Github</a></li>
+                    <li><a href="https://ecampus.sejong.ac.kr/">Ecampus</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <form action="" method="get">
+                    <label for="email">Email:</label><br/>
+                    <input type="text" name="email" id="email" /><br/><br/>
+
+                    <label for="message">Message:</label><br/>
+                    <textarea name="message" id="message" rows="5" cols="30"></textarea><br/><br/>
+
+                    <input type="submit" class="submit-button-wrapper" value="Submit" />
+                </form>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps?q=Sejong%20University&z=15&output=embed"
+                width="400"
+                height="300">
+            </iframe>
+        </div>
+
+    </div>
+</body>
+</html>
